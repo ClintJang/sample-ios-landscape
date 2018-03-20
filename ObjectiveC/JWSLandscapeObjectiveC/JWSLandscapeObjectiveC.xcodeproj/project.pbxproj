@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCBFFC702005A2050069F8AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFFC6F2005A2050069F8AF /* AppDelegate.m */; };
+		BCBFFC732005A2050069F8AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFFC722005A2050069F8AF /* ViewController.m */; };
+		BCBFFC762005A2050069F8AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBFFC742005A2050069F8AF /* Main.storyboard */; };
+		BCBFFC782005A2050069F8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCBFFC772005A2050069F8AF /* Assets.xcassets */; };
+		BCBFFC7B2005A2050069F8AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBFFC792005A2050069F8AF /* LaunchScreen.storyboard */; };
+		BCBFFC7E2005A2050069F8AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFFC7D2005A2050069F8AF /* main.m */; };
+		BCBFFC892005A4080069F8AF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFFC882005A4080069F8AF /* BaseViewController.m */; };
+		BCBFFC8C2005A4820069F8AF /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFFC8B2005A4820069F8AF /* DataManager.m */; };
+		BCBFFC8F2005A8CB0069F8AF /* LandscapeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFFC8E2005A8CB0069F8AF /* LandscapeController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCBFFC6B2005A2050069F8AF /* JWSLandscapeObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWSLandscapeObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBFFC6E2005A2050069F8AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCBFFC6F2005A2050069F8AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCBFFC712005A2050069F8AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCBFFC722005A2050069F8AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCBFFC752005A2050069F8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCBFFC772005A2050069F8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCBFFC7A2005A2050069F8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCBFFC7C2005A2050069F8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCBFFC7D2005A2050069F8AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCBFFC872005A4080069F8AF /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BCBFFC882005A4080069F8AF /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BCBFFC8A2005A4820069F8AF /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		BCBFFC8B2005A4820069F8AF /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		BCBFFC8D2005A8CB0069F8AF /* LandscapeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapeController.h; sourceTree = "<group>"; };
+		BCBFFC8E2005A8CB0069F8AF /* LandscapeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCBFFC682005A2050069F8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCBFFC622005A2050069F8AF = {
+			isa = PBXGroup;
+			children = (
+				BCBFFC6D2005A2050069F8AF /* JWSLandscapeObjectiveC */,
+				BCBFFC6C2005A2050069F8AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCBFFC6C2005A2050069F8AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCBFFC6B2005A2050069F8AF /* JWSLandscapeObjectiveC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCBFFC6D2005A2050069F8AF /* JWSLandscapeObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				BCBFFC842005A3CA0069F8AF /* Class */,
+				BCBFFC6E2005A2050069F8AF /* AppDelegate.h */,
+				BCBFFC6F2005A2050069F8AF /* AppDelegate.m */,
+				BCBFFC712005A2050069F8AF /* ViewController.h */,
+				BCBFFC722005A2050069F8AF /* ViewController.m */,
+				BCBFFC8D2005A8CB0069F8AF /* LandscapeController.h */,
+				BCBFFC8E2005A8CB0069F8AF /* LandscapeController.m */,
+				BCBFFC742005A2050069F8AF /* Main.storyboard */,
+				BCBFFC772005A2050069F8AF /* Assets.xcassets */,
+				BCBFFC792005A2050069F8AF /* LaunchScreen.storyboard */,
+				BCBFFC7C2005A2050069F8AF /* Info.plist */,
+				BCBFFC7D2005A2050069F8AF /* main.m */,
+			);
+			path = JWSLandscapeObjectiveC;
+			sourceTree = "<group>";
+		};
+		BCBFFC842005A3CA0069F8AF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				BCBFFC852005A3CA0069F8AF /* Base */,
+				BCBFFC862005A3CA0069F8AF /* User */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		BCBFFC852005A3CA0069F8AF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BCBFFC872005A4080069F8AF /* BaseViewController.h */,
+				BCBFFC882005A4080069F8AF /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BCBFFC862005A3CA0069F8AF /* User */ = {
+			isa = PBXGroup;
+			children = (
+				BCBFFC8A2005A4820069F8AF /* DataManager.h */,
+				BCBFFC8B2005A4820069F8AF /* DataManager.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCBFFC6A2005A2050069F8AF /* JWSLandscapeObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCBFFC812005A2050069F8AF /* Build configuration list for PBXNativeTarget "JWSLandscapeObjectiveC" */;
+			buildPhases = (
+				BCBFFC672005A2050069F8AF /* Sources */,
+				BCBFFC682005A2050069F8AF /* Frameworks */,
+				BCBFFC692005A2050069F8AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWSLandscapeObjectiveC;
+			productName = JWSLandscapeObjectiveC;
+			productReference = BCBFFC6B2005A2050069F8AF /* JWSLandscapeObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCBFFC632005A2050069F8AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = clintjang;
+				TargetAttributes = {
+					BCBFFC6A2005A2050069F8AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BCBFFC662005A2050069F8AF /* Build configuration list for PBXProject "JWSLandscapeObjectiveC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCBFFC622005A2050069F8AF;
+			productRefGroup = BCBFFC6C2005A2050069F8AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCBFFC6A2005A2050069F8AF /* JWSLandscapeObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCBFFC692005A2050069F8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBFFC7B2005A2050069F8AF /* LaunchScreen.storyboard in Resources */,
+				BCBFFC782005A2050069F8AF /* Assets.xcassets in Resources */,
+				BCBFFC762005A2050069F8AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCBFFC672005A2050069F8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBFFC732005A2050069F8AF /* ViewController.m in Sources */,
+				BCBFFC8F2005A8CB0069F8AF /* LandscapeController.m in Sources */,
+				BCBFFC8C2005A4820069F8AF /* DataManager.m in Sources */,
+				BCBFFC892005A4080069F8AF /* BaseViewController.m in Sources */,
+				BCBFFC7E2005A2050069F8AF /* main.m in Sources */,
+				BCBFFC702005A2050069F8AF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCBFFC742005A2050069F8AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCBFFC752005A2050069F8AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCBFFC792005A2050069F8AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCBFFC7A2005A2050069F8AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCBFFC7F2005A2050069F8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCBFFC802005A2050069F8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCBFFC822005A2050069F8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y72B7R5K2B;
+				INFOPLIST_FILE = JWSLandscapeObjectiveC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.clintjang.JWSLandscapeObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCBFFC832005A2050069F8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y72B7R5K2B;
+				INFOPLIST_FILE = JWSLandscapeObjectiveC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.clintjang.JWSLandscapeObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCBFFC662005A2050069F8AF /* Build configuration list for PBXProject "JWSLandscapeObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBFFC7F2005A2050069F8AF /* Debug */,
+				BCBFFC802005A2050069F8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCBFFC812005A2050069F8AF /* Build configuration list for PBXNativeTarget "JWSLandscapeObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBFFC822005A2050069F8AF /* Debug */,
+				BCBFFC832005A2050069F8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCBFFC632005A2050069F8AF /* Project object */;
+}
