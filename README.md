@@ -1,10 +1,10 @@
-# sample-ios-landscape
-[![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/clintjang/JWSBoltsSwiftSample/blob/master/LICENSE) [![Swift 4](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://swift.org) 
+# sample ios landscape
+[![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/ClintJang/sample-ios-landscape/blob/master/LICENSE) [![Swift 4](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://swift.org) 
 
 ## Description
 Just .. Landscape Swift Sample
 
-Links to the same "Objective-C" source: https://github.com/ClintJang/JWSLandscape/tree/master/ObjectiveCSample/JWSLandscapeObjectiveC/
+Links to the same "Objective-C" source: https://github.com/ClintJang/sample-ios-landscape/tree/master/ObjectiveC/JWSLandscapeObjectiveC/
 
 # Info
 ## Result Image
